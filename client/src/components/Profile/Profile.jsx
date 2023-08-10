@@ -27,7 +27,7 @@ getProfile();
   });
   const handleChange = ({ currentTarget: input }) => {
     setData({ ...data, [input.name]: input.value });
-    // console.log(data);
+    console.log(data);
   };
 
 

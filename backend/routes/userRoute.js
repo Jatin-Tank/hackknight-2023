@@ -9,5 +9,4 @@ router.post("/user/login",loginUser);
 router.get("/user/logout",logOutUser);
 router.get("/user/getUserData",isAuthenticated,getUserDetails);
 router.put("/user/updateProfile",isAuthenticated,updateProfile);
-
 export default router;
