@@ -1,7 +1,7 @@
 import React from 'react'
 import './LevelCard.css'
 import './LevelCardSaa.scss'
-
+import { Link } from "react-router-dom";
 import { PiLightbulbFilamentBold } from 'react-icons/pi'
 const LevelCard = () => {
 
@@ -41,7 +41,7 @@ const LevelCard = () => {
                                 </p>
                                 <h2 className="card-title">UPI Enchantment </h2>
                                 <p className="card-text" style={{ fontSize: "16px" }}>UPI is like a digital wallet for adults, letting them share money effortlessly, just like you share treats with friends.</p>
-                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Go somewhere</p>
+                                <Link to="/levelZero"><p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p></Link>
                                 <ul className="circles">
                                     <li></li>
                                     <li></li>
@@ -72,7 +72,7 @@ const LevelCard = () => {
                                 <p className="card-text" style={{ fontSize: "16px" }}>Banks are like magical places where people keep their money safe. They give special cards for taking out and putting in money, and they lend money to help people buy houses or do fun things. Banks earn money by collecting extra money and lending it to others who pay back more. They offer different accounts like savings, current, recurring deposit, fixed deposit, and Demat accounts for holding electronic shares.
                                 </p>
 
-                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Go somewhere</p>
+                                <Link to="/levelOne"><p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p></Link>
                                 <ul className="circles">
                                     <li></li>
                                     <li></li>
@@ -104,7 +104,7 @@ const LevelCard = () => {
                                 <p className="card-text" style={{ fontSize: "16px" }}>Interest is like a bonus you get when you lend your money to someone or keep it in a special place like a bank. It's extra money that you receive as a thank you for sharing or keeping your money safe.
                                 </p>
 
-                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Go somewhere</p>
+                                <Link to="/levelTwo"><p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p> </Link>
                                 <ul className="circles">
                                     <li></li>
                                     <li></li>
@@ -141,7 +141,7 @@ const LevelCard = () => {
 
                                 </p>
 
-                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Go somewhere</p>
+                                <Link to="/levelThree"><p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p></Link>
                                 <ul className="circles">
                                     <li></li>
                                     <li></li>
@@ -173,7 +173,7 @@ const LevelCard = () => {
 
                                 </p>
 
-                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Go somewhere</p>
+                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p>
                                 <ul className="circles">
                                     <li></li>
                                     <li></li>

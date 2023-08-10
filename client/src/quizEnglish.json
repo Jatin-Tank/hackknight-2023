@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "question": "What is the 50/30/20 rule used for?",
+      "options": [
+        "Creating a budget",
+        "Paying off credit card debt",
+        "Investing in stocks",
+        "Calculating interest rates"
+      ],
+      "correct_option": 0
+    },
+    {
+      "id": 2,
+      "question": "What does APR stand for?",
+      "options": [
+        "Average Percentage Rate",
+        "Annual Personal Return",
+        "Adjusted Price Rate",
+        "Annual Percentage Rate"
+      ],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is a type of retirement account?",
+      "options": [
+        "Savings account",
+        "Checking account",
+        "IRA",
+        "Credit card"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of a FICO credit score?",
+      "options": [
+        "Determining your income",
+        "Evaluating your spending habits",
+        "Measuring your creditworthiness",
+        "Calculating your tax liability"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the recommended percentage of your income to save for emergencies?",
+      "options": [
+        "5%",
+        "10%",
+        "20%",
+        "3 months' worth of expenses"
+      ],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "What does ROI stand for?",
+      "options": [
+        "Rate of Investment",
+        "Return on Interest",
+        "Risk of Inflation",
+        "Return on Investment"
+      ],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "What is a bear market?",
+      "options": [
+        "A market with declining stock prices",
+        "A market with stable stock prices",
+        "A market with increasing stock prices",
+        "A market with low interest rates"
+      ],
+      "correct_option": 0
+    },
+    {
+      "id": 8,
+      "question": "Which type of investment carries the most risk?",
+      "options": [
+        "Savings account",
+        "Government bonds",
+        "Stocks",
+        "Certificate of Deposit (CD)"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "What is the primary purpose of diversification in investing?",
+      "options": [
+        "Minimize taxes",
+        "Maximize returns",
+        "Minimize risk",
+        "Maximize credit score"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "What is a budget deficit?",
+      "options": [
+        "When expenses exceed income",
+        "When income exceeds expenses",
+        "When investments earn high returns",
+        "When taxes are reduced"
+      ],
+      "correct_option": 0
+    },
+    {
+      "id": 11,
+      "question": "What is the difference between a traditional IRA and a Roth IRA?",
+      "options": [
+        "Traditional IRA has tax-free withdrawals, Roth IRA doesn't",
+        "Roth IRA has tax-free withdrawals, Traditional IRA doesn't",
+        "Both IRAs have the same rules and benefits",
+        "IRAs are not related to taxes"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "What is the concept of 'compounding' in relation to savings and investments?",
+      "options": [
+        "Investing in a single stock",
+        "Earning interest on interest over time",
+        "Investing in foreign currencies",
+        "Changing investment strategies frequently"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of a will?",
+      "options": [
+        "To allocate your retirement funds",
+        "To specify your charitable donations",
+        "To distribute your assets after your death",
+        "To declare your bankruptcy"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "What is the golden rule of personal finance?",
+      "options": [
+        "Always spend more than you earn",
+        "Never invest in the stock market",
+        "Live within your means",
+        "Borrow money whenever possible"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "What does the term 'liquidity' refer to?",
+      "options": [
+        "The ability to convert assets into cash quickly",
+        "Investments with the highest returns",
+        "The total value of your assets",
+        "The stability of a stock market"
+      ],
+      "correct_option": 0
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of insurance?",
+      "options": [
+        "To generate passive income",
+        "To eliminate taxes",
+        "To protect against financial risk",
+        "To guarantee investment returns"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "What is the difference between a debit card and a credit card?",
+      "options": [
+        "Debit card withdraws from your savings, credit card borrows money",
+        "Credit card withdraws from your savings, debit card borrows money",
+        "Debit card has an annual fee, credit card doesn't",
+        "Credit card has a PIN, debit card doesn't"
+      ],
+      "correct_option": 0
+    },
+    {
+      "id": 18,
+      "question": "What is a 401(k) plan?",
+      "options": [
+        "A plan to save for a new car",
+        "A retirement savings plan offered by employers",
+        "A type of student loan",
+        "A mortgage payment plan"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "What is inflation?",
+      "options": [
+        "A decrease in the general price level of goods and services",
+        "An increase in the purchasing power of money",
+        "A situation where prices of goods and services remain constant",
+        "An increase in the general price level of goods and services"
+      ],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of a financial goal?",
+      "options": [
+        "To impress friends and family",
+        "To give away money",
+        "To set a target for your financial plans",
+        "To become a millionaire quickly"
+      ],
+      "correct_option": 2
+    }
+  ]
+  

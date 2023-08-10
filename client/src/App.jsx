@@ -17,9 +17,8 @@ import Level0 from './components/Level/Level0'
 import Level1 from './components/Level/Level1'
 import Level2 from './components/Level/Level2'
 import Level3 from './components/Level/Level3'
-// import MakeStockExchange from './MakeStockExchange'
 import CompoundInt from './CompoundInt'
-
+import QuizCaller from './components/Quiz/QuizCaller'
 
 
 function App() {
@@ -30,6 +29,7 @@ function App() {
       <Routes>
         {/* {user && <Route path="/" exact element={<Home />} />} */}
         <Route path="/" exact element={<LandingPage />} />
+        {/* <Route path="/" exact element={<QuizCaller />} /> */}
         <Route path="/home" exact element={<Home />} />
         <Route path="/signup" exact element={<Signup />} />
         <Route path="/login" exact element={<Login />} />
@@ -37,12 +37,7 @@ function App() {
         <Route path="/" element={<Navigate replace to="/login" />} />
         <Route path='/coins' exact element={<MakeCoin />} />
         <Route path="/coins/:id" exact element={<MakeCoinDetails />} />
-        <Route path="/cryptoExchanges" exact element={<MakeExchange />} />
-        {/* <Route path="/stockExchanges" exact element={<MakeStockExchange />} /> */}
-        <Route path="/calculator" exact element={<CompoundInt />} />
-
-
-
+        <Route path="/exchanges" exact element={<MakeExchange />} />
 
       </Routes>
     </div>
