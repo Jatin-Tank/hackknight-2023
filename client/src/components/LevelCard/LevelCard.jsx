@@ -1,15 +1,25 @@
 import React from 'react'
 import './LevelCard.css'
+import './LevelCardSaa.scss'
 
 import { PiLightbulbFilamentBold } from 'react-icons/pi'
 const LevelCard = () => {
 
+    const headingSize = {
+        fontSize: "25px"
+    }
+    const descriptionSize = {
+        fontSize: "18px"
+    }
+    const linkSize = {
+        fontSize: "12px"
+    }
 
     return (
         <>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-6">
+                    <div className="col-7 ">
 
 
                         {/* Card 0 */}
@@ -183,17 +193,109 @@ const LevelCard = () => {
 
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-4" style={{ marginLeft: "70px" }}>
+
+
+                        <div className="row justify-content-center">
+                            <div className="col">
+                                <div className="row ">
+                                    <div className="column">
+                                        <div className="card gr-3" style={{ height: "423px" }}>
+                                            <div className="txt">
+                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
+                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                            </div>
+                                            <a style={linkSize} href="/">more</a>
+                                            <div className="ico-card">
+                                                <i className="fa fa-empire"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row justify-content-center">
+                            <div className="col">
+                                <div className="row ">
+                                    <div className="column">
+                                        <div className="card gr-3" style={{ height: "310px" }}>
+                                            <div className="txt">
+                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
+                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                            </div>
+                                            <a style={linkSize} href="/">more</a>
+                                            <div className="ico-card">
+                                                <i className="fa fa-empire"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row justify-content-center">
+                            <div className="col">
+                                <div className="row ">
+                                    <div className="column">
+                                        <div className="card gr-3" style={{ height: "250px" }}>
+                                            <div className="txt">
+                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
+                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                            </div>
+                                            <a style={linkSize} href="/">more</a>
+                                            <div className="ico-card">
+                                                <i className="fa fa-empire"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row justify-content-center">
+                            <div className="col">
+                                <div className="row ">
+                                    <div className="column">
+                                        <div className="card gr-3" style={{ height: "358px" }}>
+                                            <div className="txt">
+                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
+                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                            </div>
+                                            <a style={linkSize} href="/">more</a>
+                                            <div className="ico-card">
+                                                <i className="fa fa-empire"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row justify-content-center">
+                            <div className="col">
+                                <div className="row ">
+                                    <div className="column">
+                                        <div className="card gr-3" style={{ height: "215px" }}>
+                                            <div className="txt">
+                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
+                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                            </div>
+                                            <a style={linkSize} href="/">more</a>
+                                            <div className="ico-card">
+                                                <i className="fa fa-empire"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
 
 
                     </div>
-
-
-
-
-
-
-
                 </div>
             </div>
 
