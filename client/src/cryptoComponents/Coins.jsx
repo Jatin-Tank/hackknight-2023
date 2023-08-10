@@ -5,7 +5,6 @@ import { Container, HStack, Button, RadioGroup, Radio } from '@chakra-ui/react';
 import Loader from './Loader';
 import ErrorComponent from './ErrorComponent';
 import CoinCard from './CoinCard';
-import Navbar from '../components/Navbar/Navbar';
 
 
 const Coins = () => {

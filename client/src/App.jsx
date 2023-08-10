@@ -17,6 +17,8 @@ import Level0 from './components/Level/Level0'
 import Level1 from './components/Level/Level1'
 import Level2 from './components/Level/Level2'
 import Level3 from './components/Level/Level3'
+// import MakeStockExchange from './MakeStockExchange'
+import CompoundInt from './CompoundInt'
 
 
 
@@ -35,7 +37,12 @@ function App() {
         <Route path="/" element={<Navigate replace to="/login" />} />
         <Route path='/coins' exact element={<MakeCoin />} />
         <Route path="/coins/:id" exact element={<MakeCoinDetails />} />
-        <Route path="/exchanges" exact element={<MakeExchange />} />
+        <Route path="/cryptoExchanges" exact element={<MakeExchange />} />
+        {/* <Route path="/stockExchanges" exact element={<MakeStockExchange />} /> */}
+        <Route path="/calculator" exact element={<CompoundInt />} />
+
+
+
 
       </Routes>
     </div>
