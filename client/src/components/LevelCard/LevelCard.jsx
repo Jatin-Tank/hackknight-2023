@@ -111,6 +111,74 @@ const LevelCard = () => {
 
                         </div>
 
+                        {/* Card 3 */}
+                        <div className="card area my-5">
+
+
+                            <h1 className="card-header text-center" style={{
+                                background: "linear-gradient(324deg, rgba(27,21,146,1) 0%, rgba(101,9,121,1) 35%, rgba(102,0,255,1) 100%)",
+                                color: "var(--white)"
+                            }}>Level 3 : All about Stocks</h1>
+
+                            <div className="card-body">
+                                <h2 className="card-title">Stock Market</h2>
+                                <p className="card-text" style={{ fontSize: "16px" }}>The stock market lets people trade company pieces, similar to puzzle parts. Prices change based on company success. People trade for money or to share in company achievements.
+
+                                </p>
+
+                                <h2 className="card-title">Stock Exchange</h2>
+                                <p className="card-text" style={{ fontSize: "16px" }}>A stock exchange is like a trading hub for these company puzzle pieces. Prices rise with demand and fall with less interest. People buy for potential success, sell if unsure – just like trading toys but with company pieces.
+
+                                </p>
+
+                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Go somewhere</p>
+                                <ul className="circles">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        {/* Card 4 */}
+                        <div className="card area my-5">
+
+
+                            <h1 className="card-header text-center" style={{
+                                background: "linear-gradient(324deg, rgba(27,21,146,1) 0%, rgba(101,9,121,1) 35%, rgba(102,0,255,1) 100%)",
+                                color: "var(--white)"
+                            }}>Level 4 : All about CryptoCurrency</h1>
+
+                            <div className="card-body">
+                                {/* <h2 className="card-title">Stock Market</h2> */}
+                                <p className="card-text" style={{ fontSize: "16px" }}>The stock market lets people trade company pieces, similar to puzzle parts. Prices change based on company success. People trade for money or to share in company achievements.
+
+                                </p>
+
+                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Go somewhere</p>
+                                <ul className="circles">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+
+                        </div>
 
 
                     </div>
