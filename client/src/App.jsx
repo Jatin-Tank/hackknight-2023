@@ -6,11 +6,18 @@ import Login from './components/Login/Login'
 import Profile from './components/Profile/Profile'
 import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 import LandingPage from './components/LandingPage/LandingPage'
+
 import MakeCoin from './MakeCoin'
 import MakeCoinDetails from './MakeCoinDetails'
 import MakeExchange from './MakeExchange'
 
 // import Coins from './components/Coins/Coins'
+
+import Level0 from './components/Level/Level0'
+import Level1 from './components/Level/Level1'
+import Level2 from './components/Level/Level2'
+import Level3 from './components/Level/Level3'
+
 
 
 function App() {
@@ -26,10 +33,10 @@ function App() {
         <Route path="/login" exact element={<Login />} />
         <Route path="/profile" exact element={<Profile />} />
         <Route path="/" element={<Navigate replace to="/login" />} />
-        <Route path='/coins' exact element={<MakeCoin/>} />
-        <Route path="/coins/:id" exact element={<MakeCoinDetails/>} />
-        <Route path="/exchanges" exact element={<MakeExchange/>} />
-        
+        <Route path='/coins' exact element={<MakeCoin />} />
+        <Route path="/coins/:id" exact element={<MakeCoinDetails />} />
+        <Route path="/exchanges" exact element={<MakeExchange />} />
+
       </Routes>
     </div>
   )

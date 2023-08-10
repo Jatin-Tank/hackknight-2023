@@ -12,7 +12,6 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-
     <title>Finova</title>
   </head>
   <body>
@@ -27,5 +26,22 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Brevo Conversations {literal} -->
+    <script>
+      (function (d, w, c) {
+        w.BrevoConversationsID = "64d512790c41b515813453c5";
+        w[c] =
+          w[c] ||
+          function () {
+            (w[c].q = w[c].q || []).push(arguments);
+          };
+        var s = d.createElement("script");
+        s.async = true;
+        s.src = "https://conversations-widget.brevo.com/brevo-conversations.js";
+        if (d.head) d.head.appendChild(s);
+      })(document, window, "BrevoConversations");
+    </script>
+    <!-- /Brevo Conversations {/literal} -->
   </body>
 </html>
