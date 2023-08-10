@@ -1,7 +1,47 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar'
+import axios from 'axios';
 
 const Profile = () => {
+
+  const [userName,setUserName]=useState("");
+  const [userEmail,setUserEmail]=useState("");
+  let url;
+
+  const getProfile = async () => {
+    url = "http://localhost:8000/api/v1/user/getUserData"
+    const { data: res } = await axios.get(url, {
+        withCredentials: true,
+    });
+    //   console.log(res);
+    setUserName(res.user.name);
+    setUserEmail(res.user.email);
+}
+
+getProfile();
+
+
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+  });
+  const handleChange = ({ currentTarget: input }) => {
+    setData({ ...data, [input.name]: input.value });
+    // console.log(data);
+  };
+
+
+ 
+
+const handleSubmit = async(e) => {
+  e.preventDefault();
+
+  const url = "http://localhost:8000/api/v1/user/updateProfile";
+  const { data: res } = await axios.put(url, data, { withCredentials: true });
+  console.log(res.message);
+}
+
+
   const textStyle = {
     fontSize: "18px"
   }
@@ -23,8 +63,8 @@ const Profile = () => {
                         style={{ width: "180px", bordeRadius: "10px" }} />
                     </div>
                     <div className="flex-grow-1 ms-3">
-                      <h1 style={{ fontSize: "40px" }} className="mb-1">Danny McLoan</h1>
-                      <p className="mb-2 pb-1" style={{ color: "#2b2a2a", fontSize: "16px" }}>dannymcloan@gmail.com</p>
+                      <h1 style={{ fontSize: "40px" }} className="mb-1">{userName}</h1>
+                      <p className="mb-2 pb-1" style={{ color: "#2b2a2a", fontSize: "16px" }}>{userEmail}</p>
                     </div>
                   </div>
                 </div>
@@ -36,20 +76,20 @@ const Profile = () => {
 
       <section className="vh-50" >
         <div className="container w-50">
-          <form>
+          <form onSubmit={handleSubmit}>
 
             <div className="form-outline mb-4">
-              <input style={{ padding: "10px", fontSize: "15px" }} type="text" id="form5Example1" className="form-control" />
-              <label style={textStyle} className="form-label" for="form5Example1">Name</label>
+              <label style={textStyle} className="form-label" htmlFor="form5Example1">Name</label>
+              <input required style={{ padding: "10px", fontSize: "15px" }}  onChange={handleChange} type="text" name="name" id="name" className="form-control" />
             </div>
 
 
             <div className="form-outline mb-4">
-              <input style={{ padding: "10px", fontSize: "15px" }} type="email" id="form5Example2" className="form-control" />
-              <label style={textStyle} className="form-label" for="form5Example2">Email address</label>
+              <label style={textStyle} className="form-label"  htmlFor="form5Example2">Email address</label>
+              <input required style={{ padding: "10px", fontSize: "15px" }} onChange={handleChange} type="email" name="email" id="email" className="form-control" />
             </div>
 
-            <button type="submit" style={{ backgroundColor: "var(--secondary-color)", fontSize: "18px", padding: "5px 20px 5px 20px" }} className="btn btn-block mb-4">Update</button>
+            <button type="submit" style={{ backgroundColor: "var(--secondary-color)", fontSize: "18px", padding: "5px 20px 5px 20px" }} className="btn btn-block mb-4" >Update</button>
           </form>
         </div>
 
