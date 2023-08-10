@@ -17,6 +17,7 @@ import Level0 from './components/Level/Level0'
 import Level1 from './components/Level/Level1'
 import Level2 from './components/Level/Level2'
 import Level3 from './components/Level/Level3'
+import QuizCaller from './components/Quiz/QuizCaller'
 // import Level4 from './components/Level/Level4'
 
 
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         {/* {user && <Route path="/" exact element={<Home />} />} */}
         <Route path="/" exact element={<LandingPage />} />
+        {/* <Route path="/" exact element={<QuizCaller />} /> */}
         <Route path="/home" exact element={<Home />} />
         <Route path="/signup" exact element={<Signup />} />
         <Route path="/login" exact element={<Login />} />
