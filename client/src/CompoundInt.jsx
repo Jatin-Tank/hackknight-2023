@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './CompoundInt.css';
+import './components/CompoundInt/CompoundInt.css';
 import Calculator from './components/CompoundInt/CompoundInt.jsx';
 
 const CompoundInt = () => {

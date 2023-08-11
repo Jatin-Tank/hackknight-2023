@@ -1,3 +1,5 @@
+/* 
+
 .App {
     text-align: center;
   }
@@ -35,14 +37,14 @@
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
   
   .gradient-background {
     background: linear-gradient(300deg,#e5a1ff,#b68fff,#fb72c3);
     background-size: 180% 180%;
-    /* color: #fff; */
-    animation: gradient-animation 18s ease infinite;
-  }
+    color: #fff;
+     animation: gradient-animation 18s ease infinite;
+  } 
   
   @keyframes gradient-animation {
     0% {
@@ -57,6 +59,7 @@
   }
   
   .blurs{
+    color: black;
     background-color: #f7e9fe;
     padding: 1.5rem;
     border-radius: 10px;
@@ -65,3 +68,5 @@
     
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+
+  

@@ -38,7 +38,12 @@ function App() {
         <Route path='/coins' exact element={<MakeCoin />} />
         <Route path="/coins/:id" exact element={<MakeCoinDetails />} />
         <Route path="/exchanges" exact element={<MakeExchange />} />
-
+        <Route path="/calculator" exact element={<CompoundInt />} />
+        <Route path='/levelZero' exact element={<Level0 />} />
+        <Route path='/levelOne' exact element={<Level1 />} />
+        <Route path='/levelTwo' exact element={<Level2 />} />
+        <Route path='/levelThree' exact element={<Level3 />} />
+        {/* <Route path='/levelFour' exact element={<Level4 />} /> */}
       </Routes>
     </div>
   )
