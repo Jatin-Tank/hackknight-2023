@@ -220,7 +220,7 @@ const LevelCard = () => {
                             <div className="col">
                                 <div className="row ">
                                     <div className="column">
-                                        <div className="card gr-3" style={{ height: "340px" }}>
+                                        <div className="card gr-3" style={{ height: "318px" }}>
                                             <div className="txt">
                                                 <h1 style={headingSize}>Retirement<br />Calculator</h1>
                                                 <p style={descriptionSize}>Use Retirement Calculator to understand how to plan effectively for the retirement.</p>
@@ -241,7 +241,7 @@ const LevelCard = () => {
                             <div className="col">
                                 <div className="row ">
                                     <div className="column">
-                                        <div className="card gr-3" style={{ height: "275px" }}>
+                                        <div className="card gr-3" style={{ height: "240px" }}>
                                             <div className="txt">
                                                 <h1 style={headingSize}>Crypto <br />Exchanges</h1>
                                                 <p style={descriptionSize}>All popular Crypto Exchanges.</p>
@@ -261,7 +261,7 @@ const LevelCard = () => {
                             <div className="col">
                                 <div className="row ">
                                     <div className="column">
-                                        <div className="card gr-3" style={{ height: "380px" }}>
+                                        <div className="card gr-3" style={{ height: "359px" }}>
                                             <div className="txt">
                                                 <h1 style={headingSize}>Crypto <br />Coins</h1>
                                                 <p style={descriptionSize}>Experience real-time tracking of crypto coins in interactive graphs and bars.</p>
