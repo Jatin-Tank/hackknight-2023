@@ -4,7 +4,7 @@ import './levelStyle.css'
 const Level0 = () => {
     return (
         <>
-            <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz"/>
+            <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz" />
 
 
             <div className="container w-50">
@@ -52,12 +52,15 @@ const Level0 = () => {
                             <li><strong>Start Using UPI:</strong> Once your account is verified, you can start using UPI. You can send money to friends and family by entering their VPAs or scanning QR codes, pay bills, and even shop online.</li>
 
                         </ul>
-                        
+
                     </div>
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/SmJJC72dyO4" title="Finance - Meaning, Types and Scope in Hindi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 </div>
+
             </div>
+
+
         </>
     )
 }

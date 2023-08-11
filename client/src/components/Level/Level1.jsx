@@ -6,7 +6,7 @@ import './levelStyle.css'
 const Level1 = () => {
     return (
         <>
-            <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz"/>
+            <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz" />
 
 
             <div className="container w-50">
@@ -64,6 +64,7 @@ const Level1 = () => {
                     <iframe width="900" height="506" src="https://www.youtube.com/embed/leIiFgI79Ek" title="How Banks Earn Money? | Business Model of Banks | Dhruv Rathee" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
+
         </>
     )
 }
