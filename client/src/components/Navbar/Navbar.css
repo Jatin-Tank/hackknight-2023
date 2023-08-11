@@ -53,7 +53,7 @@ ul li {
 }
 
 .n-list>ul :hover {
-    color: var(--secondary-color);
+    color: var(--white);
     cursor: pointer;
 }
 

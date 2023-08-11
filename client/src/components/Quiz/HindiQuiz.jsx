@@ -1,9 +1,10 @@
 import React from 'react'
-import questions from "../../quizEnglish.json"
-import Quiz from './Quiz'
+import questions from "../../quizHindi.json"
+import Quiz from "./Quiz"
+import './Quiz.css'
 import Navbar from '../Navbar/Navbar'
 
-const QuizCaller = () => {
+const HindiQuiz = () => {
     return (
         <>
         <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz"/>
@@ -16,4 +17,4 @@ const QuizCaller = () => {
     )
 }
 
-export default QuizCaller
+export default HindiQuiz

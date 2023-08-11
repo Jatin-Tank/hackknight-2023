@@ -47,7 +47,7 @@ const handleSubmit = async(e) => {
   }
   return (
     <>
-      <Navbar home="Home" profile="Profile" expenses="Expenses" />
+     <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz"/>
 
       {/* <section className="vh-50" style={{ backgroundColor: "#cca8f1" }}> */}
       <section className="vh-50" >

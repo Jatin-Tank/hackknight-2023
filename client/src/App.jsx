@@ -19,6 +19,9 @@ import Level2 from './components/Level/Level2'
 import Level3 from './components/Level/Level3'
 import CompoundInt from './CompoundInt'
 import QuizCaller from './components/Quiz/QuizCaller'
+import Level4 from './components/Level/Level4'
+import RetirementInt from './RetirementInt'
+import HindiQuiz from './components/Quiz/HindiQuiz'
 
 
 function App() {
@@ -29,7 +32,9 @@ function App() {
       <Routes>
         {/* {user && <Route path="/" exact element={<Home />} />} */}
         <Route path="/" exact element={<LandingPage />} />
-        {/* <Route path="/" exact element={<QuizCaller />} /> */}
+        <Route path="/englishQuiz" exact element={<QuizCaller />} />
+        <Route path="/hindiQuiz" exact element={<HindiQuiz />} />
+
         <Route path="/home" exact element={<Home />} />
         <Route path="/signup" exact element={<Signup />} />
         <Route path="/login" exact element={<Login />} />
@@ -39,10 +44,14 @@ function App() {
         <Route path="/coins/:id" exact element={<MakeCoinDetails />} />
         <Route path="/exchanges" exact element={<MakeExchange />} />
         <Route path="/calculator" exact element={<CompoundInt />} />
+        <Route path='/retirementCalc' exact element={<RetirementInt/>} />
+
         <Route path='/levelZero' exact element={<Level0 />} />
         <Route path='/levelOne' exact element={<Level1 />} />
         <Route path='/levelTwo' exact element={<Level2 />} />
         <Route path='/levelThree' exact element={<Level3 />} />
+        <Route path='/levelFour' exact element={<Level4 />} />
+
         {/* <Route path='/levelFour' exact element={<Level4 />} /> */}
       </Routes>
     </div>

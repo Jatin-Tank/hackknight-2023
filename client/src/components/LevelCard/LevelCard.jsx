@@ -169,11 +169,11 @@ const LevelCard = () => {
 
                             <div className="card-body">
                                 {/* <h2 className="card-title">Stock Market</h2> */}
-                                <p className="card-text" style={{ fontSize: "16px" }}>The stock market lets people trade company pieces, similar to puzzle parts. Prices change based on company success. People trade for money or to share in company achievements.
-
+                                <p className="card-text" style={{ fontSize: "16px" }}>Cryptocurrency is like digital tokens in a computer game for buying and trading. You can't touch it, but it's stored safely in a digital wallet. Just like collecting game tokens, there are various types with their own rules.
                                 </p>
 
-                                <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p>
+                                {/* <p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p> */}
+                                <Link to="/levelFour"><p className="hover-btn btn btn-primary">  <PiLightbulbFilamentBold style={{ fontSize: "30px" }} /> Explore Now</p></Link>
                                 <ul className="circles">
                                     <li></li>
                                     <li></li>
@@ -202,10 +202,11 @@ const LevelCard = () => {
                                     <div className="column">
                                         <div className="card gr-3" style={{ height: "423px" }}>
                                             <div className="txt">
-                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
-                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                                <h1 style={headingSize}>Compound Interest<br />calculator</h1>
+                                                <p style={descriptionSize}>Use Compound Interest Calculator to understand how magical compounding can be in mutual funds.</p>
                                             </div>
-                                            <a style={linkSize} href="/">more</a>
+                                            {/* <a style={linkSize} href="/">more</a> */}
+                                            <Link style={linkSize} to="/calculator">more</Link>
                                             <div className="ico-card">
                                                 <i className="fa fa-empire"></i>
                                             </div>
@@ -219,12 +220,14 @@ const LevelCard = () => {
                             <div className="col">
                                 <div className="row ">
                                     <div className="column">
-                                        <div className="card gr-3" style={{ height: "310px" }}>
+                                        <div className="card gr-3" style={{ height: "340px" }}>
                                             <div className="txt">
-                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
-                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                                <h1 style={headingSize}>Retirement<br />Calculator</h1>
+                                                <p style={descriptionSize}>Use Retirement Calculator to understand how to plan effectively for the retirement.</p>
                                             </div>
-                                            <a style={linkSize} href="/">more</a>
+                                            {/* <a style={linkSize} href="/">more</a> */}
+                                            <Link style={linkSize} to="/retirementCalc">more</Link>
+
                                             <div className="ico-card">
                                                 <i className="fa fa-empire"></i>
                                             </div>
@@ -238,12 +241,13 @@ const LevelCard = () => {
                             <div className="col">
                                 <div className="row ">
                                     <div className="column">
-                                        <div className="card gr-3" style={{ height: "250px" }}>
+                                        <div className="card gr-3" style={{ height: "275px" }}>
                                             <div className="txt">
-                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
-                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                                <h1 style={headingSize}>Crypto <br />Exchanges</h1>
+                                                <p style={descriptionSize}>All popular Crypto Exchanges.</p>
                                             </div>
-                                            <a style={linkSize} href="/">more</a>
+                                            {/* <a style={linkSize} href="/">more</a> */}
+                                            <Link style={linkSize} to="/exchanges">more</Link>
                                             <div className="ico-card">
                                                 <i className="fa fa-empire"></i>
                                             </div>
@@ -257,12 +261,13 @@ const LevelCard = () => {
                             <div className="col">
                                 <div className="row ">
                                     <div className="column">
-                                        <div className="card gr-3" style={{ height: "358px" }}>
+                                        <div className="card gr-3" style={{ height: "380px" }}>
                                             <div className="txt">
-                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
-                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                                <h1 style={headingSize}>Crypto <br />Coins</h1>
+                                                <p style={descriptionSize}>Experience real-time tracking of crypto coins in interactive graphs and bars.</p>
                                             </div>
-                                            <a style={linkSize} href="/">more</a>
+                                            {/* <a style={linkSize} href="/">more</a> */}
+                                            <Link style={linkSize} to="/coins">more</Link>
                                             <div className="ico-card">
                                                 <i className="fa fa-empire"></i>
                                             </div>
@@ -276,7 +281,7 @@ const LevelCard = () => {
                             <div className="col">
                                 <div className="row ">
                                     <div className="column">
-                                        <div className="card gr-3" style={{ height: "215px" }}>
+                                        <div className="card gr-3" style={{ height: "241px" }}>
                                             <div className="txt">
                                                 <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
                                                 <p style={descriptionSize}>User Interface and User Experience Design.</p>

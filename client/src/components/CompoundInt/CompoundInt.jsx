@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TextField, Button, Select, MenuItem, Box ,Stack,InputAdornment, FormControl,InputLabel,OutlinedInput} from '@mui/material';
+import Navbar from '../Navbar/Navbar';
 
 //npm install @mui/material @emotion/react @emotion/styled
 
@@ -89,6 +90,9 @@ function Calculator() {
   };
 
   return (
+    <>
+    <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz"/>
+
     <div className='gradient-background'>
     <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
     <div className='blurs'>
@@ -175,6 +179,7 @@ function Calculator() {
     </div>
     </Box>
     </div>
+    </>
   );
 }
 

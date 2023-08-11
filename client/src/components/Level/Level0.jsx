@@ -4,7 +4,7 @@ import './levelStyle.css'
 const Level0 = () => {
     return (
         <>
-            <Navbar home="Home" profile="Profile" expenses="Expenses" />
+            <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz"/>
 
 
             <div className="container w-50">

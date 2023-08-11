@@ -37,11 +37,11 @@ const Navbar = (props) => {
             <div className="n-list">
                 <ul style={{ listStyleType: "none", display: "flex" }}>
                     <Link to='/home'><li>{props.home}</li></Link>
-                    <Link to='/home'><li>{props.profile}</li></Link>
-                    <Link to='/home'><li>{props.expenses}</li></Link>
+                    <Link to='/hindiQuiz'><li>{props.hindi}</li></Link>
+                    <Link to='/englishQuiz'><li>{props.english}</li></Link>
                     <Link to='/profile'><li className='usernameStyle'>{name}</li></Link>
                 </ul>
-                
+
             </div>
             <button className="white_btn" onClick={handleLogout}>
                 Logout

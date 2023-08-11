@@ -6,7 +6,7 @@ import './levelStyle.css'
 const Level2 = () => {
     return (
         <>
-            <Navbar home="Home" profile="Profile" expenses="Expenses" />
+            <Navbar home="Home" hindi="Hindi Quiz" english="English Quiz"/>
             <div className="container w-50">
                 <div className="row">
 
@@ -18,11 +18,12 @@ const Level2 = () => {
                         <br />
                         Now, there are two types of interest: Simple Interest and Compound Interest.
                     </p>
+                    <h2 className="levelHeading">Types of Interest</h2>
                     <div className="setup">
                         <ul>
                             <li><strong>Simple Interest:</strong> It's like getting a little present every year for the money you put in the jar. The gift is always the same, no matter how long your money stays in the jar. So, if you have more money in the jar, the gift will be bigger.</li>
 
-                            <li><strong>Compound Interes:</strong>This is like getting a present not just on the money you put in but also on the presents you got before! So, each year, your gift gets bigger because it's like you're getting a present on your presents.
+                            <li><strong>Compound Interest:</strong>This is like getting a present not just on the money you put in but also on the presents you got before! So, each year, your gift gets bigger because it's like you're getting a present on your presents.
                             </li>
                         </ul>
                         <p className='levelParagraph'>In simple words, simple interest is when you only get a gift on your original money, and compound interest is when you get gifts on your original money and all the gifts you got before. It's like the magical jar giving you more and more gifts as time goes by!
