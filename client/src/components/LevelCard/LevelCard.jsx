@@ -283,10 +283,10 @@ const LevelCard = () => {
                                     <div className="column">
                                         <div className="card gr-3" style={{ height: "241px" }}>
                                             <div className="txt">
-                                                <h1 style={headingSize}>UX/UI WEBsite <br />AND MOBILE app</h1>
-                                                <p style={descriptionSize}>User Interface and User Experience Design.</p>
+                                                <h1 style={headingSize}>Stocks<br /> </h1>
+                                                <p style={descriptionSize}>Stock related Information</p>
                                             </div>
-                                            <a style={linkSize} href="/">more</a>
+                                            <Link style={linkSize} to="/stockExchange">more</Link>
                                             <div className="ico-card">
                                                 <i className="fa fa-empire"></i>
                                             </div>

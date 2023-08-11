@@ -22,6 +22,7 @@ import QuizCaller from './components/Quiz/QuizCaller'
 import Level4 from './components/Level/Level4'
 import RetirementInt from './RetirementInt'
 import HindiQuiz from './components/Quiz/HindiQuiz'
+import StockCaller from './components/Stock/StockCaller'
 
 
 function App() {
@@ -44,13 +45,14 @@ function App() {
         <Route path="/coins/:id" exact element={<MakeCoinDetails />} />
         <Route path="/exchanges" exact element={<MakeExchange />} />
         <Route path="/calculator" exact element={<CompoundInt />} />
-        <Route path='/retirementCalc' exact element={<RetirementInt/>} />
+        <Route path='/retirementCalc' exact element={<RetirementInt />} />
 
         <Route path='/levelZero' exact element={<Level0 />} />
         <Route path='/levelOne' exact element={<Level1 />} />
         <Route path='/levelTwo' exact element={<Level2 />} />
         <Route path='/levelThree' exact element={<Level3 />} />
         <Route path='/levelFour' exact element={<Level4 />} />
+        <Route path='/stockExchange' exact element={<StockCaller />} />
 
         {/* <Route path='/levelFour' exact element={<Level4 />} /> */}
       </Routes>
