@@ -1,6 +1,6 @@
+import './CompoundInt.css'
 import React, { useState } from 'react';
 import { TextField, Slider, Select, MenuItem,Box, Button, Typography, Card, Stack,Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
-import './CompoundInt.css'
 
 const RetirementCalculator = () => {
   const [currentAge, setCurrentAge] = useState(30);
@@ -27,8 +27,8 @@ const RetirementCalculator = () => {
     setRetirementSavings(event.target.value);
   };
 
-  const handleInvestmentReturnChange = (event, value) => {
-    setInvestmentReturn(value);
+  const handleInvestmentReturnChange = (event) => {
+    setInvestmentReturn(event.target.value);
   };
 
   const calculateRetirementSavings = () => {
@@ -40,12 +40,12 @@ const RetirementCalculator = () => {
   };
 
   return (
-    <div className='retire' style={{height:"100vh", paddingTop:'20px'}}>
-    <Card className='retire1' style={{}} sx={{maxWidth: '800px',justifyContent: 'center', alignItems: 'center', margin:'auto'}}>
+    <div className='retire'>
+    <Card className='retire1' style={{marginTop:''}} sx={{maxWidth: '800px',justifyContent: 'center', alignItems: 'center', margin:'auto'}}>
       <Typography variant="h4" gutterBottom>
         Retirement Calculator
       </Typography>
-      <form style={{marginTop:'40px'}}>
+      <form>
       <Stack spacing={2} sx={{ justifyContent: 'center', alignItems: 'center', marginBottom:'2em'}}>
         <TextField
           label="Current Age"
@@ -76,9 +76,7 @@ const RetirementCalculator = () => {
           onChange={handleRetirementSavingsChange}
           sx={{ width: 300 }}
         />
-        <Typography id="investment-return-slider" gutterBottom>
-          Average Investment Return (%)
-        </Typography>
+
         <TextField
           label="Investment Return"
           type="number"
