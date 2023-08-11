@@ -1,6 +1,6 @@
 import './CompoundInt.css'
 import React, { useState } from 'react';
-import { TextField, Slider, Select, MenuItem,Box, Button, Typography, Card, Stack,Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import { TextField, Slider, Select, MenuItem, Box, Button, Typography, Card, Stack, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 
 const RetirementCalculator = () => {
   const [currentAge, setCurrentAge] = useState(30);
@@ -40,80 +40,80 @@ const RetirementCalculator = () => {
   };
 
   return (
-    <div className='retire'>
-    <Card className='retire1' style={{marginTop:''}} sx={{maxWidth: '800px',justifyContent: 'center', alignItems: 'center', margin:'auto'}}>
-      <Typography variant="h4" gutterBottom>
-        Retirement Calculator
-      </Typography>
-      <form>
-      <Stack spacing={2} sx={{ justifyContent: 'center', alignItems: 'center', marginBottom:'2em'}}>
-        <TextField
-          label="Current Age"
-          type="number"
-          value={currentAge}
-          onChange={handleCurrentAgeChange}
-          sx={{ width: 300 }}
-          
-        />
-        <TextField
-          label="Planned Retirement Age"
-          type="number"
-          value={retirementAge}
-          onChange={handleRetirementAgeChange}
-          sx={{ width: 300 }}
-        />
-        <TextField
-          label="Amount Needed at Retirement Age"
-          type="number"
-          value={amountNeeded}
-          onChange={handleAmountNeededChange}
-          sx={{ width: 300 }}
-        />
-        <TextField
-          label="Retirement Savings Now"
-          type="number"
-          value={retirementSavings}
-          onChange={handleRetirementSavingsChange}
-          sx={{ width: 300 }}
-        />
+    <div className='retire' style={{ height: "100vh", paddingTop: '20px' }}>
+      <Card className='retire1' sx={{ maxWidth: '800px', justifyContent: 'center', alignItems: 'center', margin: 'auto' }}>
+        <Typography variant="h4" gutterBottom>
+          Retirement Calculator
+        </Typography>
+        <form>
+          <Stack spacing={2} sx={{ justifyContent: 'center', alignItems: 'center', marginBottom: '2em' }}>
+            <TextField
+              label="Current Age"
+              type="number"
+              value={currentAge}
+              onChange={handleCurrentAgeChange}
+              sx={{ width: 300 }}
 
-        <TextField
-          label="Investment Return"
-          type="number"
-          value={investmentReturn}
-          onChange={handleInvestmentReturnChange}
-          sx={{ width: 300 }}
-          InputProps={{
-            endAdornment: <Typography variant="body1">%</Typography>,
-          }}
-        />
-        <Button variant="contained" onClick={calculateRetirementSavings}>
-          Calculate
-        </Button>
-    </Stack>
+            />
+            <TextField
+              label="Planned Retirement Age"
+              type="number"
+              value={retirementAge}
+              onChange={handleRetirementAgeChange}
+              sx={{ width: 300 }}
+            />
+            <TextField
+              label="Amount Needed at Retirement Age"
+              type="number"
+              value={amountNeeded}
+              onChange={handleAmountNeededChange}
+              sx={{ width: 300 }}
+            />
+            <TextField
+              label="Retirement Savings Now"
+              type="number"
+              value={retirementSavings}
+              onChange={handleRetirementSavingsChange}
+              sx={{ width: 300 }}
+            />
 
-      </form>
+            <TextField
+              label="Investment Return"
+              type="number"
+              value={investmentReturn}
+              onChange={handleInvestmentReturnChange}
+              sx={{ width: 300 }}
+              InputProps={{
+                endAdornment: <Typography variant="body1">%</Typography>,
+              }}
+            />
+            <Button variant="contained" onClick={calculateRetirementSavings}>
+              Calculate
+            </Button>
+          </Stack>
 
-      <TableContainer component={Paper} sx={{border:'none', maxWidth: '800px',justifyContent: 'center', alignItems: 'center', margin:'auto'}}>
-      <Typography variant="h5" gutterBottom>
-          You Can Follow these retirement plans
+        </form>
+
+        <TableContainer component={Paper} sx={{ border: 'none', maxWidth: '800px', justifyContent: 'center', alignItems: 'center', margin: 'auto' }}>
+          <Typography variant="h5" gutterBottom>
+            You Can Follow these retirement plans
           </Typography>
-        <Table>
-          <TableHead>
-            <TableRow>
-              <TableCell sx={{ border: '1px solid black' }}>Monthly Savings</TableCell>
-              <TableCell sx={{ border: '1px solid black' }}>Yearly Savings</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            <TableRow>
-              <TableCell sx={{ border: '1px solid black' }}>You need to save <b>₹{monthlySavings}</b> monthly to reach target at retirement age.</TableCell>
-              <TableCell sx={{ border: '1px solid black' }}>You need to save <b>₹{yearlySavings} </b>yearly to reach target at retirement age.</TableCell>
-            </TableRow>
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </Card>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell sx={{ border: '1px solid black' }}>Monthly Savings</TableCell>
+                <TableCell sx={{ border: '1px solid black' }}>Yearly Savings</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell sx={{ border: '1px solid black' }}>You need to save <b>₹{monthlySavings}</b> monthly to reach target at retirement age.</TableCell>
+                <TableCell sx={{ border: '1px solid black' }}>You need to save <b>₹{yearlySavings} </b>yearly to reach target at retirement age.</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </Card>
     </div>
   );
 };
