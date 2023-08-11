@@ -17,6 +17,7 @@ import Level0 from './components/Level/Level0'
 import Level1 from './components/Level/Level1'
 import Level2 from './components/Level/Level2'
 import Level3 from './components/Level/Level3'
+import CompoundInt from './CompoundInt'
 import QuizCaller from './components/Quiz/QuizCaller'
 import HindiQuiz from './components/Quiz/HindiQuiz/HindiQuiz'
 // import Level4 from './components/Level/Level4'
@@ -40,6 +41,7 @@ function App() {
         <Route path='/coins' exact element={<MakeCoin />} />
         <Route path="/coins/:id" exact element={<MakeCoinDetails />} />
         <Route path="/exchanges" exact element={<MakeExchange />} />
+        <Route path="/calculator" exact element={<CompoundInt />} />
         <Route path='/levelZero' exact element={<Level0 />} />
         <Route path='/levelOne' exact element={<Level1 />} />
         <Route path='/levelTwo' exact element={<Level2 />} />
