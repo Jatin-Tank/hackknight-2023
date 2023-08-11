@@ -50,8 +50,11 @@ const Level0 = () => {
                             <li><strong>Verify Your Account: </strong>The app will guide you through verifying your account. This might involve receiving a small transaction in your bank account and entering the amount in the app for confirmation. </li>
 
                             <li><strong>Start Using UPI:</strong> Once your account is verified, you can start using UPI. You can send money to friends and family by entering their VPAs or scanning QR codes, pay bills, and even shop online.</li>
+
                         </ul>
+                        
                     </div>
+                    <iframe width="900" height="506" src="https://www.youtube.com/embed/SmJJC72dyO4" title="Finance - Meaning, Types and Scope in Hindi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 </div>
             </div>
